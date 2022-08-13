@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url('../../Images/bg.jpg'), linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero .hero-box {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.hero .hero-box .left {
+    position: relative;
+    flex: 1;
+    /* background-color: red; */
+    justify-content: flex-start;
+z-index: 66;
+}
+
+
+
+.hero .hero-box .left .heading {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 3rem;
+    padding-left: 3rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero .hero-box .left .heading-name {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 3.5rem;
+    padding-left: 3rem;
+    line-height: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero .hero-box .left .heading-special {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 3rem;
+    padding-left: 3rem;
+    line-height: 5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero .hero-box .right {
+    flex: 1;
+    /* background-color: gray; */
+}
+
+.Typewriter__wrapper {
+
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+
+    color: #b562d6 !important;
+}
+
+@media (max-width: 767px) {
+    .Typewriter__wrapper {
+        font-size: 1.4em !important;
+        font-weight: 500 !important;
+        position: absolute !important;
+    }
+
+    .Typewriter__cursor {
+        display: none !important;
+    }
+}
+
+.hero .right .right-box{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.hero .right .right-box img{
+    width: 80%;
+    height: auto;
+   
+}
